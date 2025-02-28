@@ -7,13 +7,17 @@ public class HpBar : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     [SerializeField] public Slider slider;
-    [SerializeField] public Camera camera;
+    private Camera camera;
     [SerializeField] public Transform target;
     public void UpdateHealthBar(float currenValue, float maxValue)
     {
         slider.value = currenValue / maxValue;
     }
-
+    private void Start()
+    {
+        GameObject player = GameObject.Find("Casmera");
+        camera = player.GetComponent<Camera>();
+    }
     // Update is called once per frame
     void Update()
     {

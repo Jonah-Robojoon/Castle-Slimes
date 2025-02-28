@@ -44,7 +44,7 @@ public class Slime : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.tag == "Sword colider")
+        if (other.gameObject.tag == "SwordCollider")
         {
             TakeDamage(2);
         }
