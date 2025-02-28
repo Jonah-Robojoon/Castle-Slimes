@@ -12,7 +12,7 @@ public class MouseContoller : MonoBehaviour
 
     void Update()
     {
-        turn.y += Input.GetAxis("Mouse Y");
+        turn.y += Input.GetAxis("Mouse Y") * 7;
         transform.localRotation = Quaternion.Euler(-turn.y, 0, 0);
     }
 }
