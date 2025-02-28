@@ -25,6 +25,12 @@ public class MoveRigidbodyVelocity : MonoBehaviour
 
     void FixedUpdate()
     {
+
+    
+    }
+
+        void Update(){
+
         // get input
         float moveHorizontal = Input.GetAxis("Horizontal");
         float moveVertical = Input.GetAxis("Vertical");
@@ -34,17 +40,13 @@ public class MoveRigidbodyVelocity : MonoBehaviour
 
 
 
-            // mouse movements X <---->
-            turn.x += Input.GetAxis("Mouse X") * 7;
+        // mouse movements X <---->
+        turn.x += Input.GetAxis("Mouse X") * 7;
         transform.localRotation = Quaternion.Euler(0, turn.x, 0);
 
 
-    
-    }
-
-        void Update(){
         // jump
-        if(Input.GetKeyDown(KeyCode.Space) && isGrounded){
+        if (Input.GetKeyDown(KeyCode.Space) && isGrounded){
 
             rb.AddForce(jump * 3.5f, ForceMode.Impulse);
             isGrounded = false;
