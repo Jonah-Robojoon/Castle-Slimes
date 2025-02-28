@@ -1,7 +1,11 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class MoveRigidbodyVelocity : MonoBehaviour
 {
+
+    public Vector2 turn;
     public float speed = 10f;
     private Rigidbody rb;
 
@@ -15,7 +19,12 @@ public class MoveRigidbodyVelocity : MonoBehaviour
         float moveHorizontal = Input.GetAxis("Horizontal");
         float moveVertical = Input.GetAxis("Vertical");
 
-        Vector3 movement = new Vector3(moveHorizontal, 0.0f, moveVertical);
-        rb.linearVelocity = movement * speed;
+        transform.position += transform.forward * moveVertical * speed * Time.deltaTime;
+        transform.position += transform.right * moveHorizontal * speed * Time.deltaTime;
+
+
+        // mouse movements X <---->
+        turn.x += Input.GetAxis("Mouse X") * 5;
+        transform.localRotation = Quaternion.Euler(0, turn.x, 0);
     }
 }
