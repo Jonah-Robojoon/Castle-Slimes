@@ -5,6 +5,10 @@ TagManager:
   serializedVersion: 3
   tags:
   - SwordCollider
+  - Gate
+  - Slime
+  - Spawner
+  - WaveSpawner
   layers:
   - Default
   - TransparentFX
