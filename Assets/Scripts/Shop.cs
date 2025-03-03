@@ -10,12 +10,13 @@ public class Shop : MonoBehaviour
 
     void Start()
     {
-        
+        Coin = 101;
+        Coin_Text.text = Coin.ToString();
     }
 
     public void BuyTest()
     {
-        if (Slime.coin >= 100)
+        if (Coin >= 100)
         {
             Coin -= 100;
             Coin_Text.text = Coin.ToString();
