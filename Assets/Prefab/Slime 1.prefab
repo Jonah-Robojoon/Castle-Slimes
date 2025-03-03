@@ -167,7 +167,7 @@ GameObject:
   - component: {fileID: 268090838223463034}
   m_Layer: 0
   m_Name: Slime 1
-  m_TagString: Untagged
+  m_TagString: Slime
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -467,7 +467,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   slider: {fileID: 1854021133466560193}
-  camera: {fileID: 0}
   target: {fileID: 0}
 --- !u!1 &6889779870850548155
 GameObject:

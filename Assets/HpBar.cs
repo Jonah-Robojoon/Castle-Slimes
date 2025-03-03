@@ -15,7 +15,7 @@ public class HpBar : MonoBehaviour
     }
     private void Start()
     {
-        GameObject player = GameObject.Find("Casmera");
+        GameObject player = GameObject.Find("Camera");
         camera = player.GetComponent<Camera>();
     }
     // Update is called once per frame
