@@ -2,7 +2,7 @@
 
 ## First mechanic
 Made the player move jump nad rotate camera with wasd
-![](https://github.com/Castle-Slimes/Player.gif)
+![](Player.gif)
 
 ## Second mechanic
 Made The slime Ai that follows a path
