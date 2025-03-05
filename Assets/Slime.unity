@@ -474,6 +474,7 @@ GameObject:
   - component: {fileID: 8667514682593110202}
   - component: {fileID: 5891487349261084192}
   - component: {fileID: 8667514682593110203}
+  - component: {fileID: 8667514682593110204}
   m_Layer: 0
   m_Name: Cylinder
   m_TagString: Gate
@@ -832,6 +833,7 @@ GameObject:
   - component: {fileID: 5818707357163086654}
   - component: {fileID: 5278523662470361085}
   - component: {fileID: 8047228750550652720}
+  - component: {fileID: 8047228750550652721}
   m_Layer: 0
   m_Name: Cube.006
   m_TagString: Untagged
@@ -1166,6 +1168,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &8047228750550652721
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5455579369674584987}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -2228417370725966487, guid: db1d3f1cb0863b740b86e568bd64913c, type: 3}
 --- !u!33 &8187271413272661704
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -1269,6 +1293,18 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.9999999, y: 3.207068, z: 1.1915442}
   m_Center: {x: 6.5, y: 1.8667107, z: -18.399708}
+--- !u!114 &8667514682593110204
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 38408846623940351}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 645253df84a8e544aa3dce910f4677fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
