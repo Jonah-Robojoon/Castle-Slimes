@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Collections;
+using UnityEditor;
 
 
 public class gate : MonoBehaviour
@@ -29,6 +30,7 @@ public class gate : MonoBehaviour
         {
             death();
             defeat = true;
+            EditorApplication.ExitPlaymode();
         }
     }
     private void death()
