@@ -1,4 +1,6 @@
 # Castle SLimes
+We hebben 5 mechanics
+[Scripts](https://github.com/Jonah-Robojoon/Castle-Slimes/tree/main/Assets/Scripts)
 
 ## First mechanic
 Made the player move jump nad rotate camera with wasd
