@@ -1,5 +1,5 @@
 # Castle SLimes
-##### We have five mechanics
+##### We have six mechanics
 [Script](https://github.com/Jonah-Robojoon/Castle-Slimes/tree/main/Assets/Scripts)
 
 ## First mechanic
@@ -30,7 +30,7 @@
 ![](Slimes-attack.gif)
 
 ## sixth mechanic
-Made a inf wave system for the slimes
-Reason: we wanted it go on forever. so now we have a wave system
+##### Made a inf wave system for the slimes
+##### Reason: we wanted it go on forever. so now we have a wave system
 [Script](https://github.com/Jonah-Robojoon/Castle-Slimes/blob/main/Assets/Scripts/Enemyspawner.cs)
 ![](Slimes-end.gif)
